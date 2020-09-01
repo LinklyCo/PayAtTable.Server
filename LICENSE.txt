@@ -1,0 +1,7 @@
+Copyright (c) 2016-2020 Linkly
+ 
+All rights reserved. 
+ 
+Linkly.PayAtTable can not be modified and/or distributed without the express permission of Linkly.
+ 
+Please contact Linkly for more information on licensing this solution. 
