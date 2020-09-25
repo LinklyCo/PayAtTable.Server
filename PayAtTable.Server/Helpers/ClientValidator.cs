@@ -71,8 +71,11 @@ namespace PayAtTable.Server.Helpers
             }
 
             var clientAuthHeader = ConfigurationManager.AppSettings["ClientAuthHeader"];
-            if (clientAuthHeader?.Length == 0)
-                return true;
+            if (clientAuthHeader == null || clientAuthHeader?.Length == 0)
+            {
+                message = "No Authorization header value found";
+                return false;
+            }
 
             if (clientAuthHeader.Equals(header.ToString()))
                 return true;

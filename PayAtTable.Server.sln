@@ -20,11 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayAtTable.Server.DemoRepos
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayAtTable.Server", "PayAtTable.Server\PayAtTable.Server.csproj", "{364A2B05-AA84-43A7-B25E-DFE86FDE976D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{4EBA1CF8-DDB7-4C1B-97BE-EBBFFA93A579}"
-	ProjectSection(SolutionItems) = preProject
-		docs\Getting started with the Pay at Table API Sample.pdf = docs\Getting started with the Pay at Table API Sample.pdf
-		docs\Pay at Table API.pdf = docs\Pay at Table API.pdf
+	ProjectSection(ProjectDependencies) = postProject
+		{1E97E03E-97C4-4D0A-94AE-9C41190C646A} = {1E97E03E-97C4-4D0A-94AE-9C41190C646A}
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayAtTable.API.Models", "PayAtTable.API.Models\PayAtTable.API.Models.csproj", "{CCABA274-6A21-491A-963C-343EA27DFD57}"
@@ -61,26 +58,5 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {14C1DD65-8694-498F-8973-085839190C92}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 6
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://pceftpos.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = PayAtTable.API.DemoRepositoryImpl\\PayAtTable.Server.DemoRepository.csproj
-		SccProjectName1 = PayAtTable.API.DemoRepositoryImpl
-		SccLocalPath1 = PayAtTable.API.DemoRepositoryImpl
-		SccProjectUniqueName2 = PayAtTable.API.IntegrationTest\\PayAtTable.Server.IntegrationTest.csproj
-		SccProjectName2 = PayAtTable.API.IntegrationTest
-		SccLocalPath2 = PayAtTable.API.IntegrationTest
-		SccProjectUniqueName3 = PayAtTable.API.Shared\\PayAtTable.Shared.csproj
-		SccProjectName3 = PayAtTable.API.Shared
-		SccLocalPath3 = PayAtTable.API.Shared
-		SccProjectUniqueName4 = PayAtTable.Server\\PayAtTable.Server.csproj
-		SccProjectName4 = PayAtTable.Server
-		SccLocalPath4 = PayAtTable.Server
-		SccProjectUniqueName5 = PayAtTable.API.Models\\PayAtTable.API.Models.csproj
-		SccProjectName5 = PayAtTable.API.Models
-		SccLocalPath5 = PayAtTable.API.Models
 	EndGlobalSection
 EndGlobal
