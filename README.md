@@ -20,9 +20,7 @@ An example REST server can be found in the [PayAtTable.Server](PayAtTable.Server
 ## Build and Test
 
 1. Run Visual Studio 2017 as Administrator and open the PayAtTable.Server solution.
-2. Open the PayAtTable.Server Project Properties.
-3. Under Web tab, set the project URL to: 'http://localhost/payattable' and the Specific Page to 'api/settings'.
-4. Make sure PayAtTable.Server is the start-up project, run it in IISExpress. The browser should show the result of the api/settings GET request.
+2. Make sure PayAtTable.Server is the start-up project, run it in IISExpress. The browser should show the result of the api/settings GET request.
  
 ### SSL
 1. In the PayAtTable.Server Project Properties>Build>Conditional Compilation symbols, set the value to "SSL" to require https.
