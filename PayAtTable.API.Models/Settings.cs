@@ -34,7 +34,7 @@ namespace PayAtTable.Server.Models
         /// <summary>
         /// True if tipping is enabled for this tender type, false otherwise
         /// </summary>
-        public bool EnableTipping { get; set; }
+        public bool EnableTipping { get; set; } = true;
 
         /// <summary>
         /// CsdReservedString2 for this tender type. Default is "EFTPOS"
